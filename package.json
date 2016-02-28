@@ -1,7 +1,7 @@
 {
   "name"       : "test_microservice_app",
   "version"    : "1.0.0",
-  "description": "This application have a general schema of how Services can be combined and managed using latest JvaScript techs.",
+  "description": "This application have a general schema of how Services can be combined and managed using latest JavaScript techs.",
   "readme"     : "README.md",
   "author"     : "Ivan Dimanov <microservices@idimanov.com>",
   "license"    : "MIT",
