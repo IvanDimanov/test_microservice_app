@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>System Manager</title>
+  <script src="/manager/frontend-app/public/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="/manager/frontend-app/public/assets/bundle.css" type="text/css" />
+</head>
+<body>
+  <main id="app"></main>
+
+  <!-- START SIGMA IMPORTS -->
+  <!-- NOTE: I know, I know - its too much but its actually a reduced version of: https://github.com/jacomyal/sigma.js/blob/v1.1.0/examples/basic.html -->
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/sigma.core.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/conrad.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/utils/sigma.utils.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/utils/sigma.polyfills.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/sigma.settings.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.dispatcher.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.configurable.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.graph.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.camera.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.quad.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/classes/sigma.classes.edgequad.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/captors/sigma.captors.mouse.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/captors/sigma.captors.touch.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/sigma.renderers.canvas.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/sigma.renderers.def.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/middlewares/sigma.middlewares.rescale.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/middlewares/sigma.middlewares.copy.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/misc/sigma.misc.animation.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/misc/sigma.misc.bindEvents.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/misc/sigma.misc.bindDOMEvents.js"></script>
+  <script src="/manager/frontend-app/public/vendor/sigma.js/src/misc/sigma.misc.drawHovers.js"></script>
+  <!-- END SIGMA IMPORTS -->
+
+  <script src="/manager/frontend-app/public/assets/bundle.js"></script>
+</body>
+</html>

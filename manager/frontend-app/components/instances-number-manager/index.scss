@@ -1,0 +1,34 @@
+.instances-number-manager {
+  background-color: #fff;
+  border          : 2px dashed #f99;
+  display         : inline-block;
+  position        : absolute;
+  padding         : 5px 10px;
+  vertical-align  : top;
+  z-index         : 1;
+
+  h4 {
+    margin: 0 0 5px 0;
+  }
+
+  .count {
+    display: inline-block;
+    width  : 50px;
+  }
+
+  em.add {
+    color: #03E;
+  }
+
+  em.remove {
+    color: #E30;
+  }
+
+  button.add {
+    margin-left: 5px;
+  }
+
+  button.set {
+    display: block;
+  }
+}

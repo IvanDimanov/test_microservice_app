@@ -1,0 +1,23 @@
+text {
+  font: 10px sans-serif;
+}
+
+line {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+
+#graph-container {
+  border  : 3px dotted #aaa;
+  position: relative;
+  overflow: hidden;
+  width   : 1000px;
+  height  : 800px;
+  padding : 10px 5px;
+}
