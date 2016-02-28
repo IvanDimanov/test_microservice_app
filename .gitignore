@@ -1,0 +1,5 @@
+/notes
+/node_modules
+/manager/instance-manager/logs/*
+/manager/frontend-app/public/vendor/**
+/manager/frontend-app/public/assets/**
