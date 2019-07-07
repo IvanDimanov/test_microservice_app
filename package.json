@@ -13,7 +13,9 @@
     "initial-build": "npm i && npm run frontend-build && npm run install-sigma",
     "frontend-build": "cd ./manager && webpack",
     "frontend-continues-build": "cd ./manager && webpack --watch",
-    "frontend-develop": "cd ./manager && webpack-dev-server --port=8081 --content-base=./frontend-app/public"
+    "frontend-develop": "cd ./manager && webpack-dev-server --port=8081 --content-base=./frontend-app/public",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=5.0"
@@ -44,7 +46,8 @@
     "socket.io": "2.0.2",
     "strip-json-comments": "2.0.1",
     "validator": "4.7.1",
-    "yargs": "3.32.0"
+    "yargs": "3.32.0",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "babel-core": "6.5.1",
@@ -59,5 +62,6 @@
     "style-loader": "0.13.0",
     "webpack": "1.12.13",
     "webpack-dev-server": "1.14.1"
-  }
+  },
+  "snyk": true
 }
