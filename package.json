@@ -41,9 +41,9 @@
     "react-router": "1.0.3",
     "redis": "2.4.2",
     "redis-evalsha": "1.1.1",
-    "socket.io": "2.0.2",
+    "socket.io": "3.0.0",
     "strip-json-comments": "2.0.1",
-    "validator": "4.7.1",
+    "validator": "13.6.0",
     "yargs": "3.32.0"
   },
   "devDependencies": {
