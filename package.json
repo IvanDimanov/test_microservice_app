@@ -44,7 +44,7 @@
     "socket.io": "2.0.2",
     "strip-json-comments": "2.0.1",
     "validator": "4.7.1",
-    "yargs": "3.32.0"
+    "yargs": "13.2.4"
   },
   "devDependencies": {
     "babel-core": "6.5.1",
